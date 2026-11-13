@@ -1,0 +1,134 @@
+{
+ "version": "2.57.0",
+ "fecha": "2026-11-13",
+ "archivo": "mc-2.57.0.asar.gz",
+ "tam": 10196911,
+ "sha256": "f8f4d8912c59f419b569b232a2d0ead953a8026675553421e9634e091bd74ae5",
+ "novedades": [
+  {
+   "version": "2.57.0",
+   "titulo": "Las alacenas pueden ir hasta 650 de profundidad",
+   "texto": "La profundidad máxima de todas las alacenas pasa a 650: alacena común, con gola y de vidrio (antes 450), ciega y ciega con gola (antes 400), bodega (antes 350), basculantes de 1 y 2 puertas con y sin gola (antes 450), esquinera en L con y sin gola, en las dos alas (antes 450), y porta microondas con y sin gola (antes 450). La profundidad que viene de entrada no cambia. Revisé cada una a 650: el despiece y el 3D salen bien.\n\nA tener en cuenta: en la esquinera en L, si un ala va a 650, el ala de al lado tiene que ser ancha: con alas de 700, la puerta queda de 133 mm y el programa ya avisa «no entra la mano». Con alas de 1.000 (el máximo) la puerta queda en unos 430."
+  },
+  {
+   "version": "2.56.0",
+   "titulo": "El visor 3D en HTML muestra el agua, el gas y los enchufes",
+   "texto": "El visor 3D que se guarda al lado del PDF de los planos (« - Visor 3D.html»), en la vista «Cocina completa», ahora trae las instalaciones que están marcadas en el ambiente, pegadas a la pared y a su altura:\n- Agua fría y caliente: llave de paso cromada con el volante azul (fría) o rojo (caliente).\n- Desagüe: el caño gris de PVC.\n- Gas: la llave con la palanca amarilla.\n- Enchufe simple y doble: la tapa blanca con los tomas.\n\nComo casi siempre quedan atrás de un bajo, cada una lleva además un redondel de su color y un cartel («Agua fría · h 550», «Gas · h 500», «Enchufe doble · h 1100») que se ven a través de los muebles. Hay un tilde nuevo arriba, «Agua, gas y enchufes», para mostrarlas u ocultarlas. Si el trabajo no tiene instalaciones marcadas, el tilde no aparece.\n\nLo que no cambia: el 3D del programa sigue como estaba (una chapita de color en la pared). Si Joni las quiere así también ahí, es el mismo dibujo."
+  },
+  {
+   "version": "2.55.0",
+   "titulo": "El bajo de 3 puertas parte su división cuando la bacha cae arriba",
+   "texto": "Las divisiones de adentro de los bajos también se parten si quedan abajo de la pileta: en el despiece salen «División bacha adelante» y «División bacha atrás», de 100 de ancho y el mismo alto, y en el 3D se ven las dos tiras. Sirve con la puerta sola a la derecha o a la izquierda, y en el de gola. El travesaño de 70 de la bisagra sigue igual, pegado a la tira de adelante. El mueble avisa «División partida por la bacha». Si la bacha no pisa la división, queda entera. Vale también para cualquier otro bajo que tenga división adentro.\n\nA confirmar con Joni: los estantes de los vanos que quedan abajo de la bacha siguen saliendo (antes tampoco se sacaban con los laterales partidos). Si van sin estante, que avise."
+  },
+  {
+   "version": "2.54.0",
+   "titulo": "El centro de la bacha se mide desde la punta que se elija: izquierda o derecha",
+   "texto": "En la tarjeta de cada bacha (y del anafe), en la pestaña «Bacha y anafe», hay un selector «Medir el centro desde: Izquierda | Derecha». Al elegir Derecha:\n- la medida de la tarjeta pasa a ser «Desde la punta derecha» (la bacha no se mueve: cambia desde dónde se cuenta);\n- la cota azul de la planta sale de la punta derecha;\n- en la hoja de la mesada, la cota azul de ese centro también sale de la punta derecha;\n- si después la piedra cambia de largo, esa bacha se queda a esa medida de la punta derecha (las de la izquierda, a la suya de la izquierda).\n\nCada bacha elige su punta por separado. Cambio en la hoja de la mesada: antes las cotas del frente iban encadenadas (punta → centro → centro → punta); ahora va una cota por bacha, desde su punta al centro, una debajo de la otra. Es la misma medida que se escribe en la tarjeta."
+  },
+  {
+   "version": "2.53.0",
+   "titulo": "El agujero de la grifería en la mesada, y los centros de bacha con cota azul",
+   "texto": "- Grifería. En la ficha de la mesada, pestaña «Bacha y anafe», hay un botón Agregar grifería. La pone atrás de la bacha, centrada con ella. En su tarjeta se elige Monocomando (1 agujero) o Mezcladora (2 agujeros), y se puede cambiar la posición (desde la punta izquierda y desde el frente, al centro), el diámetro del agujero (35) y, en la mezcladora, la distancia entre los dos agujeros (200). Hay un botón «Centrar con la bacha». El agujero se ve en la planta, atraviesa la piedra en el 3D y en SketchUp, y sale en la hoja de la mesada (el redondel con su diámetro y un renglón «Grifería» en la ficha). No lleva cotas, y no se cobra aparte.\n- Centros de bacha en azul. En la planta, con la mesada elegida, cada bacha (y el anafe) muestra dos cotas azules al centro: desde la punta izquierda (afuera del frente, una debajo de la otra) y desde el frente. En la hoja de la mesada, las cotas al centro que ya estaban pasan a azul.\n\nA confirmar con Joni: la distancia entre los dos agujeros de la mezcladora la puse en 200 (se cambia en la tarjeta); el diámetro, 35."
+  },
+  {
+   "version": "2.52.0",
+   "titulo": "Dos bachas de baño de apoyo: una redonda y una cuadrada",
+   "texto": "El catálogo de bachas suma dos de apoyo (24 modelos en total), de loza blanca, que van paradas arriba de la piedra:\n- De apoyo redonda Ø 40 — 400 de diámetro, 140 de alto, pared de 12, fondo bien redondeado.\n- De apoyo cuadrada 40 × 40 — 400 × 400, 130 de alto, pared de 12, esquinas redondeadas.\n\nEn la piedra no llevan el corte grande: sólo el agujero del desagüe (Ø 45). Se eligen donde las demás («Modelo» de la bacha, y Electrodomésticos › Bachas), y se pueden girar y centrar. Se ven en la planta (blancas), en el 3D, en la hoja de la mesada (que dice «de apoyo» y «desagüe Ø 45» en vez de «corte») y salen a SketchUp con el material «Loza blanca (bacha)».\n\nLo que hay que saber: son diseños míos, con medidas típicas: no son de un fabricante ni de un plano. No tienen precio: no están en la tabla de bachas del Presupuestador, así que el presupuesto cuenta el trasforo (el agujero) pero no cobra la bacha. No llevan la canilla (el programa no dibuja griferías). A definir con Joni: medidas, si quiere otras (ovalada, rectangular 50 × 40), y si hay que cobrarlas."
+  },
+  {
+   "version": "2.51.0",
+   "titulo": "El enlace entre las PC ya no repite los trabajos, y se pueden borrar de las dos",
+   "texto": "- Ya no se inventan trabajos. Un archivo es «otra copia» sólo si se llama distinto (lo que pasa al copiarlo en el Explorador: «… - copia», o con otro nombre). El mismo trabajo en otra carpeta, o con « (2)» al final, sigue siendo el mismo trabajo. Y el archivo enlazado con la nube es siempre el original.\n- Una tarjeta por trabajo. Si el mismo trabajo está en dos archivos de esta PC, en el inicio se ve una sola vez (la del archivo más nuevo).\n- Las copias de resguardo no suben solas (suben sólo si se abren y se guardan).\n- Borrar de verdad. El tacho de cada tarjeta ahora dice «Borrar»: saca el trabajo de esta PC (el archivo va a la Papelera de Windows, se puede recuperar), de la nube, y de la otra PC la próxima vez que se abra el programa allá. Si en la otra PC ese trabajo se cambió después, allá no se borra. Si se vuelve a abrir y guardar un trabajo borrado, vuelve a la nube.\n- Botón «Repetidos (n)» arriba, en el inicio: muestra juntos los trabajos que tienen el mismo nombre que otro, cada uno con su fecha y sus muebles, para borrar los que sobran. Las tarjetas repetidas dicen «Hay otro con este nombre».\n\nLo que tiene que hacer Joni una sola vez: los repetidos que ya están (en la nube y en las dos PC) no los borré yo: no puedo saber cuál es el bueno. Con la 2.51.0 en las DOS PC: tocar «Repetidos», mirar fecha y muebles, y borrar los que sobran. Se van de las dos PC."
+  },
+  {
+   "version": "2.50.0",
+   "titulo": "Dos botones para centrar la bacha",
+   "texto": "En la ficha de la mesada, pestaña «Bacha y anafe», debajo de las dos medidas de cada bacha (y de cada anafe) hay dos botones:\n- Centrar a lo largo: la pone justo al medio del largo de la piedra.\n- Centrar en el fondo: la pone justo al medio entre el frente y la pared.\n\nSe centra el centro de la bacha entera (su ala), que es la misma medida que se escribe en «Desde la punta izquierda» y «Desde el frente». Al tocar el botón, las medidas de la ficha se actualizan solas. De paso: al tocar «Girar» en una bacha a medida, el ancho y el fondo de la ficha ahora también se actualizan al momento (antes quedaban los viejos hasta salir de la ficha)."
+  },
+  {
+   "version": "2.49.0",
+   "titulo": "Bacha Johnson E 44",
+   "texto": "El catálogo suma la Johnson E 44 y la E 44/18 (22 modelos en total): simple, ala de 485 × 385, cuba de 440 × 340, con la sopapa corrida hacia la izquierda como en el plano (girándola media vuelta queda a la derecha). Hondo 150 la común y 180 la «/18». De pegar por abajo. Toman el precio de «E 44» y «E 44/18» de la tabla del Presupuestador. Las «CR» no se agregaron (misma forma).\n\nA confirmar con Joni: la puse de pegar por abajo como toda la línea E (en este mensaje no lo aclaró), y siguen pendientes las tres dudas de la 2.46.0 (hondos, corte de las dobles, tipo de acero)."
+  },
+  {
+   "version": "2.48.0",
+   "titulo": "Bacha Johnson LN 50 (la pileta de lavadero)",
+   "texto": "El catálogo suma la Johnson LN 50 (20 modelos en total): ala de 545 × 445, cuba de 500 × 400 y 250 de hondo (medido en la vista lateral del plano), de pegar por abajo. Toma el precio de «LN 50» de la tabla del Presupuestador. Se puede girar como las demás.\n\nLo que no tiene: la tabla de fregar (las rayas del frente de la cuba en el plano) no se dibuja: sale como una cuba lisa. A confirmar con Joni: la puse de pegar por abajo, como las anteriores (en este mensaje no lo aclaró)."
+  },
+  {
+   "version": "2.47.0",
+   "titulo": "La bacha se puede girar",
+   "texto": "En la ficha de la mesada, pestaña «Bacha y anafe», cada bacha tiene un botón Girar al lado del tacho. Cada click la gira un cuarto de vuelta (cuatro clicks y vuelve a como estaba). Sirve para poner la cuba chica de una R 37 o R 63 a la izquierda (dos clicks) o para poner una bacha a lo largo. Gira en la planta, en el 3D, en la hoja de la mesada y en lo que sale a SketchUp; queda guardado en el trabajo. En una bacha «a medida», Girar cambia el ancho por el fondo. Si se cambia el modelo, la bacha nueva queda girada igual."
+  },
+  {
+   "version": "2.46.0",
+   "titulo": "Más bachas Johnson: E 28, E 37, C 37, R 37 y R 63",
+   "texto": "El catálogo de bachas pasa de 10 a 19 modelos. Las nuevas (todas de pegar por abajo), con la forma exacta del plano:\n- E 28 — simple, cuba de 340 × 285, hondo 150.\n- E 37 y E 37/18 — simple, cuba de 370 × 340, hondo 150 y 180.\n- C 37 y C 37/18 — doble, dos cubas de 340 × 370.\n- R 37 y R 37/18 — doble, cuba grande de 370 × 340 a la izquierda y chica de 235 × 340 a la derecha.\n- R 63 y R 63/18 — doble, cuba de 340 × 370 a la izquierda y de 275 × 370 a la derecha.\n\nAparecen donde las otras: en «Modelo» de la bacha (modo mesada) y en Electrodomésticos › Bachas. Se ven en la planta, en el 3D y salen a SketchUp. El precio lo toman de la tabla de bachas del Presupuestador (están todas con ese mismo nombre). No se agregaron las «CR»: son la misma forma y en la web tienen otro precio; si hacen falta, se suman.\n\nLo que supuse (a confirmar con Joni): (1) cada plano sirve para los dos hondos y no los acota por separado: puse 150 para la común y 180 para la «/18»; (2) en las dobles, el corte de la piedra es uno solo alrededor de las dos cubas (como ya estaba la CC 28), no dos agujeros con un puente de piedra en el medio; (3) el tipo de acero no está en el plano: la ficha dice sólo «Acero inoxidable»."
+  },
+  {
+   "version": "2.45.0",
+   "titulo": "La mesada también sale a SketchUp, junto con los muebles",
+   "texto": "El archivo para SketchUp (Más › SketchUp) ahora trae también las mesadas dibujadas en el ambiente. Cada mesada entra como un grupo con su nombre y el de la piedra («Pieza 1 · Negro Brasil»), y adentro, cada cosa es su propio grupo:\n- Piedra, a su altura y con su espesor, con el agujero de la bacha hecho de verdad (no pintado).\n- Zócalo y Frente (el borde que baja en el ingletado / frente doble), si la mesada los lleva.\n- Bacha: el ala, cada cuba con su fondo y la sopapa, en acero. Las de pegar por arriba apoyan sobre la piedra; las de abajo cuelgan de la cara de abajo. Una bacha sin modelo sale como una cuba simple de 180 mm.\n- Anafe: una placa negra de 6 mm apoyada sobre la piedra.\n\nLos materiales quedan con nombre para el render: la piedra se llama como la piedra elegida (si no tiene, «Mesada»), más «Acero inoxidable (bacha)» y «Anafe». Va el color de la piedra; la foto de la piedra no viaja (en SketchUp / V-Ray se le pone el material al que ya tiene ese nombre). Un trabajo que sólo tiene mesada (sin muebles) ahora también se puede exportar. Lo de los muebles sale igual que antes.\n\nLo que no pude probar acá: no tengo SketchUp. Revisé las piezas por medidas y dibujándolas aparte (están en su lugar y cerradas), pero el paso de «borrar las líneas que quedan en el medio de la piedra» lo hace SketchUp al cargar el archivo: si la piedra aparece con rayas en forma de triángulos alrededor de la bacha, avisar."
+  },
+  {
+   "version": "2.44.1",
+   "titulo": "La lámina para el cliente muestra las dos alas de una cocina en L",
+   "texto": "Ahora la foto mira según para dónde dan los muebles (cada uno pesa por el tamaño de su frente). En una L queda en la diagonal del rincón y se ven las dos alas de frente. Vale para la lámina del cliente y para la del isométrico con números. Si el trabajo no tiene muebles, sigue como antes."
+  },
+  {
+   "version": "2.44.0",
+   "titulo": "Electrodomésticos más actuales",
+   "texto": ""
+  },
+  {
+   "version": "2.43.1",
+   "titulo": "Sin precios en la página de inicio",
+   "texto": "- Las tarjetas de los trabajos del inicio (la grande de «Seguir donde quedaste» y las de «Todos los trabajos») ya no muestran el precio.\n- Se sacó el orden «Mayor precio»; quedan «Recientes» y «A–Z».\n- No se tocó la pestaña «Presupuestos»: ahí el total es justamente lo que se va a buscar. Si Joni tampoco lo quiere ahí, se saca."
+  },
+  {
+   "version": "2.43.0",
+   "titulo": "La vista previa de todos los trabajos, también de las copias",
+   "texto": "- Cada archivo tiene su dibujo. Si cambiás el diseño y guardás, el dibujo se rehace.\n- Los que no tenían dibujo se dibujan solos al abrir el inicio (los trabajos de la carpeta que nunca guardaste en esa PC, los copiados, los que bajaron de la otra PC). La primera vez puede tardar unos segundos por trabajo; después quedan guardados y salen al instante.\n- Un archivo copiado es otro trabajo. El original queda igual; la copia pasa a ser un trabajo aparte, con su dibujo y su lugar en la nube. Te avisa al abrirla.\n- La copia conserva el número de presupuesto del original. Si la copia es para otro presupuesto, usá el botón Duplicar del inicio, que le saca el número.\n- Los trabajos que ya habían subido a la nube sin dibujo lo reciben ahora, así la otra PC los ve con vista previa antes de bajarlos."
+  },
+  {
+   "version": "2.42.0",
+   "titulo": "Las dos PC enlazadas",
+   "texto": "- Al guardar, el trabajo sube solo a la nube. En la otra PC aparece en el inicio con su dibujo y dice «En la nube · de (la otra PC) · se baja al abrirlo».\n- Al abrir el inicio se pone todo al día: sube lo que falta (también los trabajos viejos de la carpeta de trabajos, la primera vez) y trae lo que se cambió en la otra PC.\n- Al abrir un trabajo, si en la otra PC quedó una versión más nueva, la trae antes de abrirlo.\n- Nunca pisa nada. Si el mismo trabajo se cambió en las dos PC, pregunta cuál queda y la otra se guarda al lado como copia (con otro nombre, como otro trabajo).\n- Sin internet se trabaja igual: guarda en la PC y sube cuando vuelve la conexión.\n- También se enlazan la lista de precios, los datos del taller, los retazos y los cantos. Lo que cambiás en una PC llega a la otra la próxima vez que abrís el programa. Si son distintas en las dos (pasa la primera vez), pregunta cuál usar; la que no queda se guarda aparte.\n- En el inicio, al lado de la carpeta de trabajos, un cartelito dice «Enlazado · N trabajos en la nube», «Enlazando…» o «Sin conexión». Tocándolo enlaza en el momento.\n- El tachito en un trabajo que está sólo en la nube lo saca de la nube (el archivo de la otra PC no se toca).\n- La pestaña Presupuestos ya era igual en las dos PC, porque sale del Presupuestador.\n\nEn la nube (todo propio de este programa, nada del Presupuestador): tabla mc_trabajos, tabla mc_datos y carpeta mc-trabajos. Las tablas presupuestos_muebles y presupuestos_mesadas no se tocaron."
+  },
+  {
+   "version": "2.41.0",
+   "titulo": "La carpeta de los trabajos",
+   "texto": "- En el inicio, arriba de los trabajos, hay un renglón «Carpeta de trabajos». La primera vez dice «Elegí la carpeta»; después muestra cuál es, con «Abrir la carpeta» y «Cambiar».\n- Abrir un trabajo arranca siempre en esa carpeta (antes abría donde quedaba Windows).\n- Guardar un trabajo nuevo propone siempre esa carpeta (antes, la última que habías usado). Si un día guardás en otro lado, podés; la carpeta elegida no cambia.\n- Todos los trabajos de esa carpeta aparecen en el inicio, también los que están en subcarpetas (por ejemplo una por cliente) y los que copiaste de otra PC. Los que nunca abriste en esta PC salen con la inicial en vez del dibujo, hasta que los abras y guardes.\n- Los trabajos que abriste desde otro lugar siguen apareciendo, como antes.\n- Si la carpeta no está (un pendrive o disco desconectado), lo avisa y deja elegir otra.\n- De paso: al duplicar un trabajo, la copia tampoco arrastra el número del presupuesto de mesadas."
+  },
+  {
+   "version": "2.40.0",
+   "titulo": "La pestaña «Presupuestos» en el inicio",
+   "texto": "- En el inicio hay dos pestañas: «Tus trabajos» y «Presupuestos».\n- Presupuestos lista todos los que salieron de este programa, de muebles y de mesadas, del más nuevo al más viejo: número, fecha, cliente, obra, de qué es, el total (y el de efectivo si tiene descuento) y el estado.\n- Abrir PDF muestra el que se le mandó al cliente (el de la PC; si no está, lo baja del Presupuestador). Abrir trabajo (o doble clic en el renglón) abre el trabajo para cambiarlo.\n- Se busca por cliente, obra o número y se filtra por Muebles, Mesadas, Este mes y Pendientes.\n- Abajo, los totales según el filtro: cuántos presupuestos, cuánto presupuestaste y cuánto está confirmado.\n- El estado (Pendiente, Confirmado, Perdido) es el que tiene en el Presupuestador: acá sólo se lee, no se cambia. Los que están en la papelera de la web no aparecen.\n- Los ya hechos aparecen desde el primer día: los que este programa subió al Presupuestador y los de los trabajos guardados en la PC que ya tienen número. Sin internet se ven los de la PC, sin el estado.\n- De acá en más, cada «PDF para el cliente» y cada «PDF de las mesadas» se anota solo."
+  },
+  {
+   "version": "2.39.0",
+   "titulo": "Las mesadas, con su presupuesto aparte",
+   "texto": "- El precio de los muebles ya no incluye la mesada, ni en pantalla ni en el PDF del cliente. (Antes el PDF mostraba un solo total con todo junto.)\n- En Presupuesto hay dos pestañas, Muebles y Mesadas, cada una con su precio. La de Mesadas aparece sólo si el trabajo tiene mesadas; si el trabajo es sólo de mesadas, se abre directo ahí.\n- Pestaña Mesadas: el detalle de cada mesada, el total («Precio al cliente · mesadas») y el botón «PDF de las mesadas».\n- El PDF de las mesadas sale con la misma hoja de MARMOLCOR: las mesadas con sus medidas, el material con los m², lo que incluye (zócalo, pulido, bacha, trasforos), el total y las condiciones. El plazo dice «10 a 15 días desde la seña y la medición final en la obra».\n- El número es el siguiente al de los muebles. Por eso, si el trabajo tiene muebles y todavía no hiciste su PDF, te pide hacer primero ése. Si entre uno y otro hiciste otro presupuesto en la web, toma el primero que esté libre.\n- El descuento en efectivo es el mismo que tildás en Muebles: sale en los dos PDF con el mismo porcentaje.\n- El IVA (si lo usás) se calcula en cada presupuesto por separado, con el mismo porcentaje.\n- En el Presupuestador (la web) el de mesadas queda anotado como otro presupuesto de MC, con su número y su PDF, igual que el de muebles: se ve y se imprime, no se edita.\n- Si las mesadas dan $ 0 porque faltan precios, no hace el PDF y avisa.\n- Los trabajos guardados se separan solos al abrirlos. El plano de la mesada (sin precio) sigue igual."
+  },
+  {
+   "version": "2.38.0",
+   "titulo": "Mueble nuevo: estante flotante doble",
+   "texto": "- Mueble nuevo «Estante flotante doble»: 1.000 de largo × 300 de profundidad, con dos placas de 18 pegadas (36 de alto). Está en el catálogo en Living y también en Cocina (grupo Terminaciones).\n- Se cambia: el largo (300 a 2.750), la profundidad (150 a 600) y las placas de alto (2; también 1 o 3). Hay un botón «Canto atrás» por si el de atrás queda a la vista.\n- Para cortar: dos piezas de 1.000 × 300, «Estante flotante arriba» y «Estante flotante abajo», en la placa de los frentes, con la veta a lo largo y canto de 0,4 en el frente y en las dos puntas.\n- Herrajes: soporte oculto de estante flotante (2 hasta 800 de largo, 3 hasta 1.200, 4 hasta 1.800 y uno más cada 500), dos tarugos de pared por soporte y los tornillos para unir las placas desde abajo (8 en el de 1.000).\n- En el ambiente: se arrastra a la pared como una alacena y queda a 1.500 del piso. Se ve en la planta, en el 3D y en los planos, con el color de los frentes.\n- Avisos: si pasa de 350 de profundidad (hace palanca) o no sale de una placa.\n\nFalta que Joni cargue: el precio del soporte oculto (Placas y precios → Lista de precios → Estantes y bulonería). Entra en $0 y el presupuesto lo avisa."
+  },
+  {
+   "version": "2.37.0",
+   "titulo": "Orden en pantalla, todos los electrodomésticos y aviso cuando algo falla",
+   "texto": "- D1 · Las etapas dicen qué son. La tira de la izquierda, plegada, muestra el nombre (Relevar, Diseñar, Cortar, Presupuesto) y un dato abajo (2 paredes, 16 muebles, 9 placas). Sigue abriéndose al pasar el puntero y fijándose con el alfiler.\n- D2 · Un solo renglón de botones en Diseñar. Arriba del 3D quedan «3D | Planta» a la izquierda y un botón «Ver» a la derecha con: perspectiva u ortogonal, piso de madera o cerámico, mirar la pared de frente y ver todo. «Vista de frente» ahora se llama «De frente».\n- D3 · Botones con nombre. «Buscar», «Placas y precios», «Mostrar al cliente», «Imprimir plano». Lo de vez en cuando (medidas de obra, fotos de obra, exportar a SketchUp) pasó a «Más».\n- D4 · Los avisos ya no tapan los botones. Salen arriba, al medio, y se van solos aunque el puntero quede encima. La ayuda del 3D dejó de ser un renglón cortado: es un «?» abajo a la derecha que la abre.\n- D5 · El catálogo en lista. Más angosto (320 en vez de 380), con «Los que más usás» arriba (los cuenta solo de los muebles que vas poniendo, en esa PC) y el resto por grupo: Bajos, Alacenas, Columnas, Terminaciones. Cada grupo se pliega. Sigue siendo abatible: se abre al pasar el puntero y se fija con el alfiler, como antes.\n- D6 · Renglón de abajo, sin precio. Muebles, electrodomésticos, mesadas, placas, aprovechamiento y el primer aviso. No muestra plata. Y en la etapa Presupuesto de la izquierda ya no sale el precio: dice «Armado». En Cortar no aparece (ahí los números ya están arriba).\n- D7 · El catálogo sólo en Relevar y Diseñar. En Cortar, Presupuesto, Mesadas y Placas y precios se guarda solo y deja la pantalla entera. Al volver, vuelve como lo dejaste.\n- D8 · Tablas a todo el ancho. Piezas usa toda la pantalla (los nombres ya no se cortan) y los renglones son más bajos: entran unos 5 más.\n- D9 · «Falta completar» no es «error». En Mesadas, los precios sin cargar van en gris con «sin precio», no en rosa.\n- D10 · 3D para mostrar. Todos los electrodomésticos con sus partes (abajo) y una sombra suave en el piso debajo de muebles y aparatos. El color y la veta de la placa y la foto de la piedra ya estaban.\n- Electrodomésticos nuevos: horno empotrado (banda de comandos, vidrio, manija), anafe (vidrio negro, 4 hornallas, rejillas, perillas; también el que va puesto en la mesada), campana (base con filtros, escalón y caño), extractor bajo alacena, microondas (puerta, panel con teclas), lavarropas (ojo de buey, cajón del jabón, perilla), lavavajillas, calefón (visor, perillas, caño de gases, conexiones) y termotanque (redondo, con tapas y conexiones).\n- C1 · Aviso cuando algo falla. Si una pantalla falla por dentro, sale un cartel «Algo falló en esta pantalla», con «Copiar el detalle» para mandárselo a Claude y «Seguir trabajando». Antes parecía que el programa no hacía nada.\n\nNo se tocó: las cuentas, el despiece, los precios, los PDF. Las pruebas dan todas con error 0."
+  },
+  {
+   "version": "2.36.0",
+   "titulo": "La cocina y la heladera se ven más reales en el 3D",
+   "texto": "- La cocina ya no es un bloque negro: tiene las patas, el cajón de abajo con su tirador, la puerta del horno con el vidrio y la manija, la banda negra con las 5 perillas, la plancha con las 4 hornallas y las dos rejillas.\n- La heladera ya no es un bloque gris: tiene el freezer arriba y la puerta abajo (cada una con su manija), el burlete entre las puertas y el cuerpo, el zócalo con la rejilla y las patas. Si es baja (menos de 1,10 m) sale con una sola puerta.\n- Se dibujan con el mismo estilo del resto del 3D (colores planos y contornos en negro) y respetan la medida que les pongas: si la heladera es de 80 o la cocina de 55, las partes se acomodan solas.\n- Se siguen tocando, moviendo y midiendo igual que antes. Los demás electrodomésticos quedan como estaban hasta que Joni vea estos dos."
+  },
+  {
+   "version": "2.35.2",
+   "titulo": "Laterales partidos abajo de la bacha también en el esquinero",
+   "texto": "El esquinero en L (común y gola) también parte en dos tiras de 100 (adelante y atrás) el lateral de la punta de su ala cuando la pileta de la bacha queda encima, sea el ala que va sobre una pared o la otra. Si la bacha cae sobre la junta del esquinero con el mueble de al lado, se parten los dos laterales que se juntan. En el despiece, las etiquetas, la maderera y el 3D."
+  }
+ ]
+}

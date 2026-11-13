@@ -1,0 +1,17 @@
+{
+ "version": "1.1.1",
+ "fecha": "2026-11-07",
+ "archivo": "MC-Relevar-1.1.1.apk",
+ "tam": 303812,
+ "sha256": "b16c53955e07fa45f86c4a2e4bb9a69863eec42df8e81125fd18f8dbcbf599b1",
+ "novedades": [
+  {
+   "version": "1.1.1",
+   "texto": "Primera actualización sola de la tablet: sirve para probar que el camino entero anda (tocar «Actualizar», bajar e instalar)."
+  },
+  {
+   "version": "1.1.0",
+   "texto": "Se actualiza sola: al abrir, si hay una versión nueva aparece «Actualizar a X» arriba en la lista de relevamientos. Se toca, se baja y Android pregunta «¿Instalar?» (la primera vez pide permitir instalar desde MC Relevar). Los relevamientos no se tocan."
+  }
+ ]
+}
