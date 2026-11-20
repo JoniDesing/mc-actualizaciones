@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Tu diseño en 3D · MARMOLCOR</title>
+<style>
+html,body{margin:0;height:100%;background:#F5F2F3;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:#1A1A1A}
+#marco{position:fixed;inset:0;width:100%;height:100%;border:0;display:block}
+.estado{position:fixed;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;text-align:center;padding:24px}
+.marca{font-family:'Times New Roman',Times,serif;font-weight:700;letter-spacing:.08em;font-size:18px;display:flex;align-items:center;gap:8px}
+.estado p{margin:0;font-size:15px;color:#45434A;max-width:340px;line-height:1.45}
+.rueda{width:28px;height:28px;border-radius:50%;border:3px solid #E6E0E2;border-top-color:#A8607E;animation:g 1s linear infinite}
+@keyframes g{to{transform:rotate(360deg)}}
+</style>
+</head>
+<body>
+<div class="estado" id="estado">
+ <div class="marca"><svg width="20" height="23" viewBox="0 0 80 92" aria-hidden="true"><polygon points="40,22 72,54 40,86 8,54" fill="#C9C9C9"/><polyline points="9,45 40,76 71,45" fill="none" stroke="#D48FA8" stroke-width="5"/><polygon points="40,4 72,36 40,68 8,36" fill="#6E6E6E"/></svg>MARMOLCOR</div>
+ <div class="rueda" id="rueda"></div>
+ <p id="msj">Cargando tu diseño en 3D…</p>
+</div>
+<script>
+(async () => {
+  const URL_BASE = 'https://ddvrhrmcswmtovawsjig.supabase.co';
+  const KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRkdnJocm1jc3dtdG92YXdzamlnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzE2MTM3OTEsImV4cCI6MjA4NzE4OTc5MX0.SE1BVfldrVeapDzguHUamFNrl4-SCbq_Nah1MplakSE';
+  const msj = (t) => { document.getElementById('msj').textContent = t; document.getElementById('rueda').hidden = true; };
+  const c = new URLSearchParams(location.search).get('c') || '';
+  if (!/^[A-Za-z0-9]{12,40}$/.test(c)) { msj('Este código no es válido. Escaneá de nuevo el QR del presupuesto o del plano.'); return; }
+  try {
+    const r = await fetch(URL_BASE + '/rest/v1/rpc/mc_3d_ver', {
+      method: 'POST', headers: { apikey: KEY, Authorization: 'Bearer ' + KEY, 'Content-Type': 'application/json' },
+      body: JSON.stringify({ p_codigo: c }),
+    });
+    if (!r.ok) throw new Error(r.status);
+    const html = await r.json();
+    if (!html) { msj('Este diseño ya no está disponible. Pedile a MARMOLCOR el link actualizado.'); return; }
+    const f = document.createElement('iframe');
+    f.id = 'marco'; f.title = 'Diseño en 3D';
+    f.setAttribute('allow', 'fullscreen');
+    f.srcdoc = html;
+    document.body.appendChild(f);
+    f.addEventListener('load', () => { document.getElementById('estado').remove(); try { document.title = f.contentDocument.title || document.title; } catch (e) {} });
+  } catch (e) {
+    msj('No se pudo cargar el diseño. Revisá la conexión a internet y probá de nuevo.');
+  }
+})();
+</script>
+</body>
+</html>
