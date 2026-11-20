@@ -41,7 +41,20 @@ html,body{margin:0;height:100%;background:#F5F2F3;font-family:system-ui,-apple-s
     f.setAttribute('allow', 'fullscreen');
     f.srcdoc = html;
     document.body.appendChild(f);
-    f.addEventListener('load', () => { document.getElementById('estado').remove(); try { document.title = f.contentDocument.title || document.title; } catch (e) {} });
+    f.addEventListener('load', () => {
+      const est = document.getElementById('estado'); if (est) est.remove();
+      try {
+        const d = f.contentDocument;
+        document.title = d.title || document.title;
+        // Los diseños publicados antes del 20/11/2026 tienen el botón de WhatsApp sin número.
+        const wa = d.getElementById('wa') || d.getElementById('waCli');
+        if (wa && !/wa\.me\/\d/.test(wa.getAttribute('href') || '')) {
+          const t = (d.getElementById('trabajo') || {}).textContent || 'mi diseño';
+          wa.href = 'https://wa.me/5493541571644?text=' + encodeURIComponent('Hola MARMOLCOR, vi el diseño en 3D de «' + t.trim() + '» y quería consultar.');
+          wa.hidden = false;
+        }
+      } catch (e) {}
+    });
   } catch (e) {
     msj('No se pudo cargar el diseño. Revisá la conexión a internet y probá de nuevo.');
   }
