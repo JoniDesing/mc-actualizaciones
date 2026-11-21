@@ -1,0 +1,134 @@
+{
+ "version": "2.72.1",
+ "fecha": "2026-11-21",
+ "archivo": "MC-Tablet-2.72.1.apk",
+ "tam": 7039520,
+ "sha256": "c785089e6e40262e1111c060016642c642dca247c0701cdd412e6735ad4d166e",
+ "novedades": [
+  {
+   "version": "2.72.1",
+   "titulo": "«El lugar» en una barra angosta, la banquina con su barra y paneles a la misma altura",
+   "texto": ""
+  },
+  {
+   "version": "2.72.0",
+   "titulo": "Ventanas con marco y vidrio más real, nombre editable en la barra, mínimos más chicos",
+   "texto": "- Mínimos: las mesadas bajan hasta 50 mm de largo y de fondo (escribiendo la medida o estirándolas con el mouse). El lateral suelto baja hasta 70 mm de profundidad y de alto.\n- Barra del mueble: queda sólo el nombre (ALE2, A3…) en rosa, sin la descripción. Tocándolo lo podés cambiar ahí mismo (por ejemplo BACHA1); se escribe en mayúsculas y sin espacios, y es el que va adelante de cada pieza en el despiece («BACHA1 - Lateral»). Si el nombre ya lo tiene otro mueble, avisa.\n- Ventanas (ideas 1 y 5): la ventana tiene marco de aluminio de 5 cm y dos hojas de corrediza (una delante de la otra, con manija). En la ficha de la ventana se elige el color del marco: blanco, negro, gris o símil madera. El vidrio ya no es el celeste plano: tiene un degradé con reflejo, como vidrio. Sin hueco en la pared ni tipos de ventana, como pidió. Se ve igual en la PC, la tablet y el 3D del QR para el cliente."
+  },
+  {
+   "version": "2.71.5",
+   "titulo": "La barra de arriba centrada y sin la sombra rara",
+   "texto": "Con pantalla completa, la barra de arriba de Diseñar (Banquina, Bajo, Columna…, Medidas, De frente, Mostrar al cliente, Imprimir plano, Más) tiene el mismo aire arriba y abajo, así lo de adentro queda centrado. La sombra de las barras y del panel de la derecha ahora es apenas marcada: la de antes, con el tema oscuro, se veía como una franja gris sobre el 3D."
+  },
+  {
+   "version": "2.71.4",
+   "titulo": "El esquinero se pega a las dos paredes y marca medidas de los dos lados",
+   "texto": "- Se pega al rincón: cualquier esquinero (bajo o alacena, en L o ciego) que soltás a menos de 45 cm de un rincón va solo al rincón, pegado a las dos paredes. Pasa aunque «Colisión» esté apagado. El esquinero en L, además, dobla solo hacia ese rincón (el ala B va del lado de la otra pared).\n- Medidas de los dos lados: en el 3D, lo que está en una pared y llega al rincón también se mide en la pared de al lado, con lo que ocupa desde el rincón. Por ejemplo, el ala del esquinero en L marca 900 en las dos paredes, y el primer bajo de la otra tira marca su fondo. Ya no aparece ese tramo como si estuviera libre."
+  },
+  {
+   "version": "2.71.3",
+   "titulo": "Con pantalla completa, las barras de los costados y la de abajo se esconden solas",
+   "texto": "En Diseñar con pantalla completa:\n- La barra de los pasos (izquierda), la de Propiedades / Muebles / Electrodomésticos (derecha) y la de abajo (muebles, placas, «Guardado») se esconden solas.\n- Aparecen al acercar el mouse al borde, o al tocar la rayita gris que queda en el medio de cada borde. Se vuelven a esconder cuando el mouse se va.\n- El panel de la derecha, si está con el alfiler (fijo), queda a la vista como siempre.\n- La cocina se centra en toda la pantalla, porque las barras ya no ocupan lugar."
+  },
+  {
+   "version": "2.71.2",
+   "titulo": "La tablet vuelve a actualizarse",
+   "texto": "- MC para la tablet se rearmó con el programa de hoy (todo lo de la 2.67.0 a la 2.71.1: QR del 3D, puertas corredizas que se abren, catálogo con fotos, pantalla completa, barra del mueble, colores con fotos de Faplac, etc.). Desde ahora sale con cada versión, como antes.\n- La tablet ahora también publica el 3D para el cliente (el QR del presupuesto y del plano); antes eso sólo lo hacía la PC.\n- Una sola vez hay que desinstalarla e instalarla a mano, porque la app nueva tiene otra firma digital (la vieja se perdió). Antes de desinstalar: abrir MC en la tablet con internet para que suba los trabajos a la nube, y fijarse en la PC que estén. Después ya se actualiza sola como siempre.\n- MC Relevar no cambió (sigue en la 1.2.0 y anda igual)."
+  },
+  {
+   "version": "2.71.1",
+   "titulo": "Paneles sin transparencia",
+   "texto": "Con Diseñar a pantalla completa, los paneles (arriba, los pasos, «El lugar», el panel de la derecha y el pie), la barra del mueble elegido y el panel de colores ahora son sólidos, sin transparencia. Todo lo demás de la pantalla completa sigue igual."
+  },
+  {
+   "version": "2.71.0",
+   "titulo": "Diseñar a pantalla completa, barra del mueble y colores con fotos de Faplac",
+   "texto": "- Pantalla completa (idea 1): en Diseñar, con el 3D, la cocina ocupa toda la ventana y los paneles (arriba, los pasos, «El lugar», el panel de la derecha y el pie) flotan encima, medio transparentes. La vista se centra en el lugar libre. Arriba a la derecha del 3D, al lado de «Ver», hay un botón para prenderla o apagarla (queda guardado). «El lugar» se puede plegar a un renglón con «Ocultar ▴» / «Medidas del lugar ▾». Con la planta, o en las otras etapas, todo queda como antes. El panel de muebles sigue siendo abatible.\n- Barra del mueble (idea 2): tocás un mueble en el 3D y arriba de él aparece una barra con el ancho, el alto y la profundidad (se escriben ahí mismo), el color de los frentes y del cuerpo, la bisagra (cierre suave o común), para dónde abre (si tiene una sola puerta), duplicar, borrar y «Más» (abre Propiedades con todo lo demás). Sigue al mueble cuando girás la vista.\n- Colores con fotos (idea 5): en Propiedades y en la barra, el color de cada placa se elige en un panel con las fotos de los diseños Faplac por línea, más las placas que ya tiene el trabajo. Pasando el mouse por una foto, la cocina se ve con ese color; con un clic queda. Abajo está «Cambiarlo en todos los muebles del trabajo». Si elegís un Faplac que el trabajo no tenía, se suma solo a sus placas con el precio de su colección. Se deshace con Ctrl+Z."
+  },
+  {
+   "version": "2.70.0",
+   "titulo": "Catálogo con fotos, inicio con la cocina en 3D y movimientos suaves",
+   "texto": "- Catálogo con fotos (idea 6): cada mueble del panel «Muebles» es una tarjeta con la foto del 3D de verdad, entera (no cortada), en los colores que más se usan en el trabajo abierto. «En este trabajo» también muestra la foto de cada mueble con sus medidas y colores. Las fotos se sacan de a una, en segundo plano y sólo las que se ven en el panel; quedan guardadas en la PC, así la segunda vez salen al instante.\n- Inicio (idea 3): la tarjeta de cada trabajo muestra la cocina en 3D con sus colores y las fotos de Faplac, más grande. Sin precios y sin estados, como pidió. Las tarjetas viejas (con el dibujo plano) se rehacen solas al abrir el inicio.\n- Movimientos suaves (idea 7): el panel de la derecha entra deslizando, el contenido aparece de a poco al cambiar de pestaña o de etapa, «Ver todo» lleva la cámara del 3D despacio (también en el 3D del QR para el cliente) y los botones se hunden apenas al apretarlos. Nada dura más de medio segundo."
+  },
+  {
+   "version": "2.69.8",
+   "titulo": "Las fotos reales de Faplac en el 3D",
+   "texto": "- Se bajaron de faplaconline.com.ar las fotos de muestra de los 68 diseños (las de 1200 × 1200 de cada producto; antes MC tenía recortes de 128 × 128).\n- Van a 768 × 768 (4 MB en total), retocadas para que empalmen sin corte, en src/assets/faplac/<código>.jpg (mismos códigos que antes).\n- El 3D las repite cada 65 cm (antes 40): la muestra abarca más placa y la veta queda a escala.\n- Se ven los nudos, las vetas y los tejidos (linos, sedas) como en la placa; con el corrimiento por pieza de la 2.69.7, cada puerta tiene su veta."
+  },
+  {
+   "version": "2.69.7",
+   "titulo": "Texturas de melamina sin cortes",
+   "texto": "- Las 64 fotos con dibujo (no las lisas) se retocaron para que empalmen sin corte al repetirse (assets/faplac).\n- Cada pieza arranca la foto en otro punto (siempre el mismo para la misma pieza): las puertas de al lado ya no quedan iguales.\n- Vale para el 3D de Diseñar, las fotos del plano y la página del 3D del cliente (los diseños nuevos)."
+  },
+  {
+   "version": "2.69.6",
+   "titulo": "Presupuesto: «en puertas corredizas»",
+   "texto": "El renglón de cada color de frente dice en qué va según las piezas que lleva de verdad: «en puertas corredizas», «en puertas», «en puertas y frentes de cajón», etc. Con un solo color en todo: «cuerpo y puertas corredizas», «cuerpo y puertas», «cuerpo, puertas y frentes de cajón»."
+  },
+  {
+   "version": "2.69.5",
+   "titulo": "Arreglos: el título del presupuesto se guarda; materiales del presupuesto según las piezas",
+   "texto": ""
+  },
+  {
+   "version": "2.69.4",
+   "titulo": "El 3D del cliente más liviano en el celular",
+   "texto": "- En celulares y tablets (pantalla táctil) el 3D se dibuja sin la sombra de contacto y con definición ×1,25: gira suave. En la compu, igual que antes.\n- Al abrir o cerrar puertas y cajones se redibuja sólo cuando cambia de paso (5 veces en vez de ~30).\n- Vale para los diseños que se publiquen desde ahora (al hacer de nuevo el presupuesto, el mismo QR pasa a la versión liviana)."
+  },
+  {
+   "version": "2.69.3",
+   "titulo": "El kit corredizo al filo del frente del placard",
+   "texto": "- Al crear o volver a medir las puertas (vista de frente), el kit va con la guía de arriba al filo del frente del placard.\n- Los trabajos que ya tenían corredizas puestas con la regla vieja se acomodan solos al abrirlos (si las moviste a mano, no se tocan).\n- Probado: placard de 597 de fondo → guía antes en 569, ahora en 597; la hoja de adelante a 10 del frente; los intermedios (a 100) no chocan."
+  },
+  {
+   "version": "2.69.2",
+   "titulo": "Arreglo: el botón de WhatsApp del 3D del cliente",
+   "texto": ""
+  },
+  {
+   "version": "2.69.1",
+   "titulo": "Las corredizas sin herrajes de puerta común; la forma de pago en dos renglones",
+   "texto": "- Hojas corredizas del placard: al hacerlas «abribles» (2.68.0) el programa les había puesto lado de bisagra y el tirador de una puerta común. Ya no: sin bisagras ni tirador en el 3D, en el visor, en los planos ni en el presupuesto. Llevan sólo sus manijas Classic. Se siguen abriendo corriéndose por el riel.\n- Presupuesto, «Forma de pago»: cada oración va en su renglón: «50% de seña para empezar y 50% al terminar.» y abajo «Efectivo, transferencia, débito o tarjeta de crédito.»."
+  },
+  {
+   "version": "2.69.0",
+   "titulo": "El 3D del cliente con texturas y puertas que abren; QR más chico",
+   "texto": "- QR más chico: en el presupuesto, 18 mm (antes 21), la tarjeta más angosta y sin «y girá tu cocina con el dedo»; en el plano, 22 mm (antes 30).\n- La página del cliente usa el mismo 3D de «Diseñar»: las fotos de la melamina y de la piedra elegidas, los electrodomésticos de verdad, los cerámicos y el piso.\n- Un toque en una puerta o un cajón lo abre o lo cierra, despacio (también la hoja corrediza). Botones: «Ver todo», «De frente» y «Abrir todo / Cerrar todo».\n- Sin el tilde «Electrodomésticos y aberturas». El cliente no puede mover nada.\n- Hacer el PDF del presupuesto tarda unos segundos más (arma las aperturas de cada puerta)."
+  },
+  {
+   "version": "2.68.0",
+   "titulo": "Las puertas corredizas del placard se abren y se cierran",
+   "texto": "- En el 3D de MC (doble clic en la hoja, como las otras puertas) y en el visor 3D de los planos, cada hoja corrediza se corre de costado por su riel hasta quedar delante o detrás de la de al lado, con sus dos manijas. Doble clic de nuevo y vuelve. La última hoja se corre para la izquierda; las otras, para la derecha.\n- Se mueve despacio, igual que las demás puertas. No cambia el trabajo: es sólo para mirar."
+  },
+  {
+   "version": "2.67.0",
+   "titulo": "QR en el presupuesto y en el plano: el cliente ve su cocina en 3D",
+   "texto": "- PDF del presupuesto (muebles): una tarjeta «Tu diseño en 3D» con el QR, al lado de «Plazo de entrega» y «Forma de pago». En el PDF el QR también se toca.\n- Plano del ambiente (el tipo BIM, la portada): el QR arriba a la derecha (el isométrico se achica un poco para dejarle lugar). El plano viejo (sin fotos 3D) no lleva QR.\n- Cada presupuesto vuelve a subir el diseño: el mismo QR muestra siempre lo último presupuestado. El plano sólo lo sube si todavía no estaba.\n- Lo que ve el cliente (https://jonidesing.github.io/mc-actualizaciones/3d/?c=CÓDIGO): el logo, el nombre del trabajo, «Diseño del dd/mm/aaaa», la cocina en 3D (girar, frente, costado, arriba, acercar) y un botón de WhatsApp (con el teléfono de «Mis datos»). Sin precios, sin piezas, sin siglas, sin medidas internas; no se puede entrar a los muebles.\n- Sin internet, el PDF sale igual, sin QR, con un aviso. La copia de un trabajo tiene su propio QR."
+  },
+  {
+   "version": "2.66.0",
+   "titulo": "Planos de armado al final, y aparte con su botón",
+   "texto": ""
+  },
+  {
+   "version": "2.65.1",
+   "titulo": "Arreglo: «store:guardar … ENOENT … autoguardado.json.tmp»",
+   "texto": ""
+  },
+  {
+   "version": "2.65.0",
+   "titulo": "Las alacenas se suben y se bajan arrastrándolas en el 3D",
+   "texto": "- En el 3D, una alacena (todo lo del nivel «Alacena») se arrastra también para arriba y para abajo: queda a la altura donde se suelta, de a 5 mm. Al correrla después de costado mantiene esa altura.\n- Imán de altura (a menos de 40 mm): 1.500, pegada al techo, y alineada abajo o arriba con las otras alacenas de la misma pared. Con Shift, o con «Colisión» apagado, sin imán.\n- No pasa el techo ni baja del piso. Se deshace con Ctrl+Z como cualquier movimiento.\n- La ayuda «?» del 3D lo explica.\n- En la planta no hay altura: ahí se sigue moviendo sólo a lo largo de la pared. Un mueble nuevo arrastrado desde el panel cae a 1.500 y después se sube."
+  },
+  {
+   "version": "2.64.0",
+   "titulo": "Botón «Colisión»",
+   "texto": "- Interruptor Colisión abajo a la derecha del dibujo: en 3D al lado del «?», en la planta arriba del zoom. Viene prendido y queda guardado en la PC (y en la tablet).\n- Prendido: como siempre: los muebles chocan con lo de al lado y el imán los pega al vecino.\n- Apagado: muebles y electrodomésticos se mueven libres, en la planta y en el 3D: quedan donde se sueltan aunque se pisen, y el imán no actúa. Lo encimado se sigue viendo en rojo, para que se note. No se pueden pasar del largo de la pared."
+  },
+  {
+   "version": "2.63.1",
+   "titulo": "El pedido a la maderera sin símbolos que el Lepton no acepta",
+   "texto": "El Excel del pedido a la maderera (las 3 hojas) y las planillas CSV salen sólo con caracteres comunes: guion largo (—, –) → «-», punto del medio (·, •) → « - », × → x, comillas «» y “” → \", … → ..., espacios raros → espacio común, sin flechas ni emojis. Los acentos y la ñ quedan. Ej.: «Gola — travesaño parado» → «Gola - travesaño parado». Probado con las 443 piezas del catálogo: ningún carácter raro."
+  }
+ ]
+}
