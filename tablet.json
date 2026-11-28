@@ -1,0 +1,134 @@
+{
+ "version": "2.83.1",
+ "fecha": "2026-11-28",
+ "archivo": "MC-Tablet-2.83.1.apk",
+ "tam": 13871959,
+ "sha256": "092d70bbfbb4016e01a62e80249b08117b67d966191a6f49ca9e179ee2aa56a5",
+ "novedades": [
+  {
+   "version": "2.83.1",
+   "titulo": "Arreglo: el nombre del trabajo anterior quedaba pegado arriba",
+   "texto": ""
+  },
+  {
+   "version": "2.83.0",
+   "titulo": "Módulo nuevo: «Base suelta»",
+   "texto": ""
+  },
+  {
+   "version": "2.82.2",
+   "titulo": "Las medidas del panel, más chicas",
+   "texto": ""
+  },
+  {
+   "version": "2.82.1",
+   "titulo": "Panel de propiedades más prolijo",
+   "texto": ""
+  },
+  {
+   "version": "2.82.0",
+   "titulo": "Panel de propiedades con dos pestañas: «Este mueble» y «Todo el trabajo»",
+   "texto": ""
+  },
+  {
+   "version": "2.81.3",
+   "titulo": "Panel del costado: la sigla al lado del nombre, sin botones de más",
+   "texto": ""
+  },
+  {
+   "version": "2.81.2",
+   "titulo": "Panel del costado del Ambiente: sin anchos rápidos ni «Muebles iguales»",
+   "texto": ""
+  },
+  {
+   "version": "2.81.1",
+   "titulo": "Los editores de los muebles a medida, con las mismas opciones",
+   "texto": ""
+  },
+  {
+   "version": "2.81.0",
+   "titulo": "La ventana del mueble, más chica y por temas",
+   "texto": ""
+  },
+  {
+   "version": "2.80.3",
+   "titulo": "Las manijas de las puertas corredizas Classic, con su forma real",
+   "texto": ""
+  },
+  {
+   "version": "2.80.2",
+   "titulo": "Hojas Classic: el ancho vuelve a la cuenta de siempre, el alto queda en − 32",
+   "texto": ""
+  },
+  {
+   "version": "2.80.1",
+   "titulo": "Hojas corredizas Classic con la cuenta del instructivo",
+   "texto": ""
+  },
+  {
+   "version": "2.80.0",
+   "titulo": "Mueble nuevo: Bastidor de placard",
+   "texto": ""
+  },
+  {
+   "version": "2.79.4",
+   "titulo": "«Copiar estilo» lleva también el color del perfil",
+   "texto": ""
+  },
+  {
+   "version": "2.79.3",
+   "titulo": "«Color del perfil» al lado del Tirador",
+   "texto": ""
+  },
+  {
+   "version": "2.79.2",
+   "titulo": "Porta termotanque con gola · Perfil MC y MJ en negro · El color de todo también a las banquinas",
+   "texto": ""
+  },
+  {
+   "version": "2.79.1",
+   "titulo": "Porta termotanque: perfil MC / MJ y para qué lado abre",
+   "texto": ""
+  },
+  {
+   "version": "2.79.0",
+   "titulo": "Mueble nuevo: Porta termotanque / calefón",
+   "texto": ""
+  },
+  {
+   "version": "2.78.0",
+   "titulo": "Siempre queda el último guardado: no más repetidos",
+   "texto": ""
+  },
+  {
+   "version": "2.77.2",
+   "titulo": "Duplicar ya no pisa el original · La tablet en pantalla completa",
+   "texto": ""
+  },
+  {
+   "version": "2.77.1",
+   "titulo": "Los cajones de los placares ya no salen por atrás",
+   "texto": ""
+  },
+  {
+   "version": "2.77.0",
+   "titulo": "Mueble nuevo: Divisor de ambiente con listones girados",
+   "texto": ""
+  },
+  {
+   "version": "2.76.0",
+   "titulo": "El 3D del QR: vence a los 7 días y protegido contra capturas",
+   "texto": ""
+  },
+  {
+   "version": "2.75.1",
+   "titulo": "El 3D más liviano en la tablet",
+   "texto": ""
+  },
+  {
+   "version": "2.75.0",
+   "titulo": "Foto render",
+   "texto": ""
+  }
+ ]
+}

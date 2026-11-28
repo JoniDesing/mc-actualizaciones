@@ -1,0 +1,21 @@
+{
+ "version": "1.2.0",
+ "fecha": "2026-11-18",
+ "archivo": "MC-Relevar-1.2.0.apk",
+ "tam": 328388,
+ "sha256": "c9c47f2c6d19468e8b100bce14ac219104dbb709d8d387eea491aa076fbf7573",
+ "novedades": [
+  {
+   "version": "1.2.0",
+   "texto": "Caja de luz: en el botón «Luz» (antes «Enchufe»), junto con los enchufes, ahora está la caja de luz de las térmicas y el disyuntor. Viene de 30 × 30 cm y 4 de fondo, a 1,50 m del piso; se cambia como cualquier otra cosa. En MC aparece igual."
+  },
+  {
+   "version": "1.1.1",
+   "texto": "Primera actualización sola de la tablet: sirve para probar que el camino entero anda (tocar «Actualizar», bajar e instalar)."
+  },
+  {
+   "version": "1.1.0",
+   "texto": "Se actualiza sola: al abrir, si hay una versión nueva aparece «Actualizar a X» arriba en la lista de relevamientos. Se toca, se baja y Android pregunta «¿Instalar?» (la primera vez pide permitir instalar desde MC Relevar). Los relevamientos no se tocan."
+  }
+ ]
+}
